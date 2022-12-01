@@ -1,5 +1,7 @@
-Here you can say lots of fun things about your site.
+# Current Plans
 
-Maybe say a some things about yourself.
+Currently I plan to dump everything I know about data science in this blog so that in case I forget anything (which I will), I can use this as an archive.
 
-Or maybe what you plan to blog about.
+Any code will be written in either Python or R.
+
+It will take a long time for everything to look nice. Thanks for your patience!
