@@ -1,6 +1,3 @@
----
-use_math: true
----
 ## First Blog, Regression
 
 Current plans: Talk about regression
