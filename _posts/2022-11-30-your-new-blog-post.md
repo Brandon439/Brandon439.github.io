@@ -1,3 +1,7 @@
+---
+usemathjax: true
+---
+
 ## First Blog, Regression
 
 Current plans: Talk about regression
