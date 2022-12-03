@@ -33,7 +33,20 @@ $$\vec{y} = \begin{bmatrix} y_1 \\
 y_2 \\ 
 \vdots \\
 y_N
-\end{bmatrix}$$
+\end{bmatrix},
+A = \begin{bmatrix} x_{1,1} & x_{1,2} & \cdots & x_{1,d} & 1\\
+x_{2,1} & x_{2,2} & \cdots & x_{2,d} & 1\\
+ &          &    \ddots    &         & \\
+x_{N,1} & x_{N,2} & \cdots & x_{N,d} & 1
+\end{bmatrix}
+\text{and} ~
+\vec{b} = \begin{bmatrix} m_1 \\
+m_2 \\
+\vdots \\
+m_d \\
+b
+\end{bmatrix}
+$$
 
 
 
