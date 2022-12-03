@@ -5,4 +5,4 @@ Currently I plan to dump everything I know about data science in this blog so th
 Any code will be written in either Python or R.
 
 The main audience will be for undergraduate math students who have a firm background in linear algebra, as well as some knowledge in programming and statistics. 
-It will take a long time for everything to look nice. Thanks for your patience!
+**It will take a long time for everything to look nice.** Thanks for your patience!
