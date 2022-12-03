@@ -4,9 +4,7 @@ usemathjax: true
 
 ## First Blog, Regression
 
-Current plans: Talk about regression
-
-Regression is a statistical tool used to determine the relationship between a set of variables. It is an elementary topic for data analytics, and is super important as it forms the basis of machine learning (by predicting outcomes using variables).
+Regression is a statistical method used to determine the relationship between a set of quantitative variables. It is an elementary topic for data analytics, and is super important as it forms the basis of machine learning (by predicting outcomes using variables).
 
 Suppose we have *N* data points. Intuitively we want to draw a line (or any polynomial) through the points that is the most "fit", that is have the points as close to the line as possible.
 
@@ -59,6 +57,15 @@ Skipping the details, it turns out the optimal $b*$ that minimizes the error is
 $$b^* = R^{-1}Q^T\vec{y},$$
 
 where $A = QR$ is the factorization of $A$ into $Q$, an orthogonal matrix, and $R$, and upper triangular matrix. 
+
+
+Now instead of a line, lets fit our data using a quadratic polynomial, and set $d = 2$ for simplicity.
+
+For the $d = 1$ case where both $x$ and $y$ are scalars, we have $y = m'x^2 + mx + b$ to represent our linear equations to create $A$.
+
+For $d = 2$ we get 
+
+$$y_i = m_1x_{i1}^2 + m_2x_{i2}^2 + m_3x_{i1}x_{i2} + m_4x_{i1} + m_5x_{i2} + b$$
 
 
 References: will be coming!
